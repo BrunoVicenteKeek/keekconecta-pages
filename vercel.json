@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/login", "destination": "/login.html" },
+    { "source": "/sucesso", "destination": "/sucesso.html" },
+    { "source": "/politica-de-privacidade", "destination": "/politica-de-privacidade.html" },
+    { "source": "/termos-de-uso", "destination": "/termos-de-uso.html" },
+    { "source": "/excluir-dados", "destination": "/excluir-dados.html" }
+  ]
+}
