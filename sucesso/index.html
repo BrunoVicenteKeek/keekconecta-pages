@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keek Conecta - Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo_header">
+        <img src="./logo.jpg" alt="Logo Keek Conecta" />
+      </div>
+      <div class="text">
+        <h3>Keek Conecta</h3>
+      </div>
+    </header>
+    <div class="card">
+      <img
+        id="main-image"
+        src="logo.jpg"
+        alt="Logo Keek Conecta"
+        class="verificado"
+      />
+      <h1>Conexão Realizada</h1>
+      <p>
+        <strong
+          >Sua conta foi conectada com sucesso. Em breve entraremos em
+          contato.</strong
+        >
+      </p>
+    </div>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const image = document.getElementById("main-image");
+
+        setTimeout(() => {
+          image.classList.add("fade-out");
+
+          setTimeout(() => {
+            image.src = "verificado.png";
+            image.classList.remove("fade-out");
+            image.classList.add("fade-in");
+          }, 500); // tempo da animação de saída
+        }, 1500); // tempo antes de trocar a imagem
+      });
+    </script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
