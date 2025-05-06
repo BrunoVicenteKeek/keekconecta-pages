@@ -4,7 +4,7 @@
   ],
   "rewrites": [
     { "source": "/login", "destination": "/home/index.html" },
-    { "source": "/sucesso", "destination": "./sucesso/index.html" },
+    { "source": "/sucesso", "destination": "/sucesso/index.html" },
     { "source": "/politica-de-privacidade", "destination": "./politica-privacidade/index.html" },
     { "source": "/termos-de-uso", "destination": "./termos-de-uso/index.html" },
     { "source": "/excluir-dados", "destination": "./excluir-dados.html/index.html" }
