@@ -3,7 +3,7 @@
     { "source": "/", "destination": "/login", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/login", "destination": "./home/index.html" },
+    { "source": "/login", "destination": "/home/index.html" },
     { "source": "/sucesso", "destination": "./sucesso/index.html" },
     { "source": "/politica-de-privacidade", "destination": "./politica-privacidade/index.html" },
     { "source": "/termos-de-uso", "destination": "./termos-de-uso/index.html" },
