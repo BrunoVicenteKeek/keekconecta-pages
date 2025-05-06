@@ -3,10 +3,10 @@
     { "source": "/", "destination": "/login", "permanent": true }
   ],
   "rewrites": [
-    { "source": "/login", "destination": "/login.html" },
-    { "source": "/sucesso", "destination": "/sucesso.html" },
-    { "source": "/politica-de-privacidade", "destination": "/politica-de-privacidade.html" },
-    { "source": "/termos-de-uso", "destination": "/termos-de-uso.html" },
-    { "source": "/excluir-dados", "destination": "/excluir-dados.html" }
+    { "source": "/login", "destination": "./home/index.html" },
+    { "source": "/sucesso", "destination": "./sucesso/index.html" },
+    { "source": "/politica-de-privacidade", "destination": "./politica-privacidade/index.html" },
+    { "source": "/termos-de-uso", "destination": "./termos-de-uso/index.html" },
+    { "source": "/excluir-dados", "destination": "./excluir-dados.html/index.html" }
   ]
 }
